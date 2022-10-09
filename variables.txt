@@ -4,14 +4,17 @@ console.log(favoriteFood);
 console.log(numOfSlices);
 
 
+
 let changeMe = true
 changeMe = false
 console.log(changeMe)
 
 
+
 const entree = 'Enchiladas'
 console.log(entree)
 entree = 'Tacos'
+
 
 
 levelUp += 5
@@ -20,7 +23,33 @@ multiplyMe *= 11
 quarterMe /= 4
 
 
+
 let gainedDollar = 3;
 let lostDollar = 50;
 gainedDollar++
 lostDollar--
+
+
+
+let favoriteAnimal = 'snake'
+console.log("My favorite animal: " + favoriteAnimal)
+
+
+
+let myName = 'Etienne'
+let myCity = 'Sète'
+
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
+
+
+
+let newVariable = 'Playing around with typeof.';
+
+console.log(typeof newVariable);
+
+newVariable = 3;
+
+console.log(typeof newVariable);
+
+
+
